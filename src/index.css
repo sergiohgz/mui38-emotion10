@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+#root,
+div [data-reactroot] {
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
